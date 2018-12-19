@@ -33,6 +33,7 @@ import { SideBarNavComponent } from '@app/layout/sidebar-nav.component';
 import { SideBarFooterComponent } from '@app/layout/sidebar-footer.component';
 import { RightSideBarComponent } from '@app/layout/right-sidebar.component';
 import { TemplatesComponent } from './templates/templates.component';
+import {FroalaEditorModule, FroalaViewModule} from "@node_modules/angular-froala-wysiwyg";
 
 @NgModule({
     declarations: [
@@ -67,7 +68,9 @@ import { TemplatesComponent } from './templates/templates.component';
         AppRoutingModule,
         ServiceProxyModule,
         SharedModule,
-        NgxPaginationModule
+        NgxPaginationModule,
+        FroalaEditorModule.forRoot(),
+        FroalaViewModule.forRoot()
     ],
     providers: [
 
