@@ -16,28 +16,28 @@ variables:
 
 steps:
 
-# .NET Core
-# Restore NuGet packages.
 - task: DotNetCoreCLI@2
+  displayName: Restore Nuget Packages
   inputs:
     command: 'restore'
     projects: '**/*.csproj'
     #verbosityRestore: 'detailed' # Options: quiet, minimal, normal, detailed, diagnostic
 
-# .NET Core
-# Build Project.
 - task: DotNetCoreCLI@2
+  displayName: Build App
   inputs:
     command: 'build'
     projects: '**/*.csproj'
     #verbosityRestore: 'detailed' # Options: quiet, minimal, normal, detailed, diagnostic
 
 - task: CopyFiles@2
+  displayName: Copy Files
   inputs:
     contents: _buildOutput\**
     targetFolder: $(Build.ArtifactStagingDirectory)
 
 - task: PublishBuildArtifacts@1
+  displayName: Publish Build Artifacts
   inputs:
     pathtoPublish: $(Build.ArtifactStagingDirectory)
     artifactName: MyBuildOutputs
