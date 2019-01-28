@@ -1,0 +1,25 @@
+﻿DEBUG 2018-12-19 20:37:24,976 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-19 20:37:25,443 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-12-19 20:37:25,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IceSkool.Migrator.IceSkoolMigratorModule, IceSkool.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IceSkool.EntityFrameworkCore.IceSkoolEntityFrameworkModule, IceSkool.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IceSkool.IceSkoolCoreModule, IceSkool.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:25,787 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-12-19 20:37:26,379 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: IceSkool.EntityFrameworkCore.IceSkoolDbContext, IceSkool.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-19 20:37:27,396 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-12-19 20:37:27,454 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-19 20:37:27,470 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-19 20:37:27,480 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IceSkool
+INFO  2018-12-19 20:37:27,683 [1    ] IceSkool.Migrator.Log                    - Host database: server=DESKTOP-HHLDTE1\SQLSERVER2017STA;database=IceSkoolDb;trusted_connection=True
+INFO  2018-12-19 20:37:27,684 [1    ] IceSkool.Migrator.Log                    - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2018-12-19 20:37:40,223 [1    ] IceSkool.Migrator.Log                    - HOST database migration started...
+INFO  2018-12-19 20:37:44,217 [1    ] IceSkool.Migrator.Log                    - HOST database migration completed.
+INFO  2018-12-19 20:37:44,218 [1    ] IceSkool.Migrator.Log                    - --------------------------------------------------------
+INFO  2018-12-19 20:37:44,275 [1    ] IceSkool.Migrator.Log                    - All databases have been migrated.
+DEBUG 2018-12-19 20:37:47,443 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-12-19 20:37:47,443 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
