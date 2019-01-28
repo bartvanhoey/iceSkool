@@ -6,7 +6,6 @@
 pool:
   vmImage: 'Ubuntu-16.04'
 
-
 trigger:
 - master
 - develop
@@ -16,8 +15,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-# - script: dotnet build --configuration $(buildConfiguration)
-#   displayName: 'dotnet build $(buildConfiguration)'
 
 # .NET Core
 # Restore NuGet packages.
@@ -27,10 +24,20 @@ steps:
     projects: '**/*.csproj'
     #verbosityRestore: 'detailed' # Options: quiet, minimal, normal, detailed, diagnostic
 
-    # .NET Core
-# Restore NuGet packages.
+# .NET Core
+# Build Project.
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
     projects: '**/*.csproj'
     #verbosityRestore: 'detailed' # Options: quiet, minimal, normal, detailed, diagnostic
+
+- task: CopyFiles@2
+  inputs:
+    contents: _buildOutput\**
+    targetFolder: $(Build.ArtifactStagingDirectory)
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: $(Build.ArtifactStagingDirectory)
+    artifactName: MyBuildOutputs
