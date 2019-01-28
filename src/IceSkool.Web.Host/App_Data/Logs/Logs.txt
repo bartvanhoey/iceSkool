@@ -457,3 +457,205 @@ INFO  2018-12-19 20:52:25,634 [37   ] uthentication.JwtBearer.JwtBearerHandler -
 INFO  2018-12-19 20:52:25,728 [48   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
 DEBUG 2018-12-19 20:52:25,734 [48   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"XfVPFwlj2acK7MoB8hki5g","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-19T20:52:25.7289415+01:00","Properties":{}}
 DEBUG 2018-12-19 20:52:25,734 [48   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: XfVPFwlj2acK7MoB8hki5g
+DEBUG 2019-01-28 21:08:04,567 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-28 21:08:05,047 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-28 21:08:05,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IceSkool.Web.Host.Startup.IceSkoolWebHostModule, IceSkool.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IceSkool.IceSkoolWebCoreModule, IceSkool.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IceSkool.IceSkoolApplicationModule, IceSkool.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IceSkool.IceSkoolCoreModule, IceSkool.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IceSkool.EntityFrameworkCore.IceSkoolEntityFrameworkModule, IceSkool.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:05,130 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-28 21:08:05,367 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-28 21:08:05,368 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-28 21:08:05,368 [1    ] o.Configuration.LanguageManagementConfig - Converted IceSkool (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-28 21:08:05,368 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-28 21:08:06,210 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: IceSkool.EntityFrameworkCore.IceSkoolDbContext, IceSkool.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-28 21:08:07,824 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-28 21:08:07,876 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-28 21:08:07,899 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-28 21:08:07,933 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IceSkool
+DEBUG 2019-01-28 21:08:07,943 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-28 21:08:08,193 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-28 21:08:08,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-01-28 21:08:08,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-28 21:08:08,259 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.Users.Dto.CreateUserDto
+DEBUG 2019-01-28 21:08:08,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.Users.Dto.UserDto
+DEBUG 2019-01-28 21:08:08,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-28 21:08:08,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-28 21:08:08,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-28 21:08:08,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.Roles.Dto.PermissionDto
+DEBUG 2019-01-28 21:08:08,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.Roles.Dto.RoleDto
+DEBUG 2019-01-28 21:08:08,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-28 21:08:08,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - IceSkool.MultiTenancy.Dto.TenantDto
+INFO  2019-01-28 21:08:13,978 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-01-28 21:08:14,947 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 970.2393ms 404 
+INFO  2019-01-28 21:08:18,854 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-01-28 21:08:18,868 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:18,876 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.8231ms 204 
+INFO  2019-01-28 21:08:18,884 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-01-28 21:08:18,889 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:19,023 [10   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:18'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-01-28 21:08:19,029 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:18'.
+INFO  2019-01-28 21:08:23,689 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-01-28 21:08:23,704 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:23,773 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-01-28 21:08:24,495 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 716.1324ms.
+INFO  2019-01-28 21:08:24,680 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-28 21:08:24,761 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1064.8722ms
+INFO  2019-01-28 21:08:24,771 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5886.5173ms 200 application/json; charset=utf-8
+INFO  2019-01-28 21:08:24,790 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-01-28 21:08:24,793 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:24,797 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.2215ms 204 
+INFO  2019-01-28 21:08:24,802 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2019-01-28 21:08:24,805 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:24,810 [7    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:24'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-01-28 21:08:24,814 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:24'.
+INFO  2019-01-28 21:08:24,834 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application)
+INFO  2019-01-28 21:08:24,837 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:25,385 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application) - Validation state: Valid
+INFO  2019-01-28 21:08:25,395 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.8283ms.
+INFO  2019-01-28 21:08:25,411 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-28 21:08:25,441 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application) in 602.6622ms
+INFO  2019-01-28 21:08:25,445 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 642.8132ms 200 application/json; charset=utf-8
+INFO  2019-01-28 21:08:26,762 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiaWe4JnPtmUWrpPIOdJyhXo65NwLuO4NbLz26ziYv%2Baz9ZDOTiStakvmPW3OfseCCJE7HEFV25ezbQul2u1LHxv15spjKh2MyS3l19P0Gfvod94Cdh%2FfUpbXR4IxLFmj9gQ1V3Ox%2FMEi%2FsN25W0Q8jXG0jjNMPSjflGg%2BHk9tEz0y1IRXLnicaVUwywG611Sgb29PhDPs%2Br8jQgIztO4eFWwidBEMcfpDviBvwgeZDW11ZHnZspbCjdPwToT5xzFHYLuHanWuI4%2F%2BNSer0gY%2BZ1LHiGrMN4DdO1Kk%2FKhdV0jBvLGMBmaG29wKC7IaUzbt3sZ%2F7iLT5%2FAGGlCVmd1FvV5CAFgxDOMYnajtKCwA%2FBLgWPx75QcZBqC6mzWd5awev2%2B5keXMYainL%2FhshW0PiByn8pcSM4CqfZrMjwotdOJVj5bch0FLuBQSRWBruPDJC7xJAYYQ7%2FezQGlGlBsZRVKIEKcHQv1bY91kKwLfEF7H2e22KuymVCGJZi1cRYBFE%3D  
+INFO  2019-01-28 21:08:26,765 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:26,768 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.2543ms 204 
+INFO  2019-01-28 21:08:26,787 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiaWe4JnPtmUWrpPIOdJyhXo65NwLuO4NbLz26ziYv%2Baz9ZDOTiStakvmPW3OfseCCJE7HEFV25ezbQul2u1LHxv15spjKh2MyS3l19P0Gfvod94Cdh%2FfUpbXR4IxLFmj9gQ1V3Ox%2FMEi%2FsN25W0Q8jXG0jjNMPSjflGg%2BHk9tEz0y1IRXLnicaVUwywG611Sgb29PhDPs%2Br8jQgIztO4eFWwidBEMcfpDviBvwgeZDW11ZHnZspbCjdPwToT5xzFHYLuHanWuI4%2F%2BNSer0gY%2BZ1LHiGrMN4DdO1Kk%2FKhdV0jBvLGMBmaG29wKC7IaUzbt3sZ%2F7iLT5%2FAGGlCVmd1FvV5CAFgxDOMYnajtKCwA%2FBLgWPx75QcZBqC6mzWd5awev2%2B5keXMYainL%2FhshW0PiByn8pcSM4CqfZrMjwotdOJVj5bch0FLuBQSRWBruPDJC7xJAYYQ7%2FezQGlGlBsZRVKIEKcHQv1bY91kKwLfEF7H2e22KuymVCGJZi1cRYBFE%3D text/plain;charset=UTF-8 0
+INFO  2019-01-28 21:08:26,789 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:26,810 [6    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:26'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-01-28 21:08:26,814 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:26'.
+INFO  2019-01-28 21:08:26,849 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.4616ms 200 application/json
+INFO  2019-01-28 21:08:26,859 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiaWe4JnPtmUWrpPIOdJyhXo65NwLuO4NbLz26ziYv%2Baz9ZDOTiStakvmPW3OfseCCJE7HEFV25ezbQul2u1LHxv15spjKh2MyS3l19P0Gfvod94Cdh%2FfUpbXR4IxLFmj9gQ1V3Ox%2FMEi%2FsN25W0Q8jXG0jjNMPSjflGg%2BHk9tEz0y1IRXLnicaVUwywG611Sgb29PhDPs%2Br8jQgIztO4eFWwidBEMcfpDviBvwgeZDW11ZHnZspbCjdPwToT5xzFHYLuHanWuI4%2F%2BNSer0gY%2BZ1LHiGrMN4DdO1Kk%2FKhdV0jBvLGMBmaG29wKC7IaUzbt3sZ%2F7iLT5%2FAGGlCVmd1FvV5CAFgxDOMYnajtKCwA%2FBLgWPx75QcZBqC6mzWd5awev2%2B5keXMYainL%2FhshW0PiByn8pcSM4CqfZrMjwotdOJVj5bch0FLuBQSRWBruPDJC7xJAYYQ7%2FezQGlGlBsZRVKIEKcHQv1bY91kKwLfEF7H2e22KuymVCGJZi1cRYBFE%3D&id=T5Q2kG3kBFE-hFVTd9b7uQ  
+INFO  2019-01-28 21:08:26,862 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:26,869 [11   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:26'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-01-28 21:08:26,872 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:26'.
+INFO  2019-01-28 21:08:27,007 [6    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-01-28 21:08:27,039 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"T5Q2kG3kBFE-hFVTd9b7uQ","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2019-01-28T21:08:27.0282135+01:00","Properties":{}}
+DEBUG 2019-01-28 21:08:27,077 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: T5Q2kG3kBFE-hFVTd9b7uQ
+INFO  2019-01-28 21:08:28,110 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-01-28 21:08:28,113 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:28,116 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.6242ms 204 
+INFO  2019-01-28 21:08:28,133 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-01-28 21:08:28,136 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:28,140 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:28'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-01-28 21:08:28,144 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:28'.
+INFO  2019-01-28 21:08:28,159 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-01-28 21:08:28,163 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:28,169 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-01-28 21:08:28,194 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 21.5557ms.
+INFO  2019-01-28 21:08:28,213 [15   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-28 21:08:28,218 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 55.3987ms
+INFO  2019-01-28 21:08:28,222 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 88.5358ms 200 application/json; charset=utf-8
+INFO  2019-01-28 21:08:28,240 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-01-28 21:08:28,243 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:28,247 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.8116ms 204 
+INFO  2019-01-28 21:08:28,251 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2019-01-28 21:08:28,254 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:28,258 [7    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:28'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-01-28 21:08:28,262 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:28'.
+INFO  2019-01-28 21:08:28,273 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application)
+INFO  2019-01-28 21:08:28,276 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:28,286 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application) - Validation state: Valid
+INFO  2019-01-28 21:08:28,289 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2154ms.
+INFO  2019-01-28 21:08:28,292 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-28 21:08:28,296 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application) in 19.2217ms
+INFO  2019-01-28 21:08:28,299 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.5841ms 200 application/json; charset=utf-8
+INFO  2019-01-28 21:08:30,918 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2019-01-28 21:08:30,921 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:30,924 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.8746ms 204 
+INFO  2019-01-28 21:08:30,928 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2019-01-28 21:08:30,931 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:30,936 [6    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:30'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2019-01-28 21:08:30,939 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '01/28/2019 19:17:16', Current time: '01/28/2019 20:08:30'.
+INFO  2019-01-28 21:08:30,972 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action IceSkool.Controllers.TokenAuthController.Authenticate (IceSkool.Web.Core)
+INFO  2019-01-28 21:08:30,975 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:31,460 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IceSkool.Controllers.TokenAuthController.Authenticate (IceSkool.Web.Core) with arguments (IceSkool.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-01-28 21:08:33,063 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IceSkool.Controllers.TokenAuthController.Authenticate (IceSkool.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1597.9938ms.
+INFO  2019-01-28 21:08:33,438 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-28 21:08:33,445 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IceSkool.Controllers.TokenAuthController.Authenticate (IceSkool.Web.Core) in 2469.303ms
+INFO  2019-01-28 21:08:33,448 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2520.4665ms 200 application/json; charset=utf-8
+INFO  2019-01-28 21:08:34,002 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2019-01-28 21:08:34,004 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:34,008 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.9865ms 204 
+INFO  2019-01-28 21:08:34,035 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2019-01-28 21:08:34,038 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:34,059 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-28 21:08:34,112 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2019-01-28 21:08:34,116 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:34,121 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-01-28 21:08:34,370 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 245.1984ms.
+INFO  2019-01-28 21:08:34,401 [12   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-28 21:08:34,406 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 290.4271ms
+INFO  2019-01-28 21:08:34,410 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 374.6628ms 200 application/json; charset=utf-8
+INFO  2019-01-28 21:08:34,420 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2019-01-28 21:08:34,424 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:34,427 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.5617ms 204 
+INFO  2019-01-28 21:08:34,431 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2019-01-28 21:08:34,435 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:34,439 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-28 21:08:34,449 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application)
+INFO  2019-01-28 21:08:34,452 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:34,458 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application) - Validation state: Valid
+INFO  2019-01-28 21:08:34,485 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 24.0719ms.
+INFO  2019-01-28 21:08:34,490 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-28 21:08:34,495 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action IceSkool.Sessions.SessionAppService.GetCurrentLoginInformations (IceSkool.Application) in 42.2108ms
+INFO  2019-01-28 21:08:34,498 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.0896ms 200 application/json; charset=utf-8
+INFO  2019-01-28 21:08:35,571 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiaWe4JnPtmUWrpPIOdJyhXo65NwLuO4NbLz26ziYv%2Baz9ZDOTiStakvmPW3OfseCCJE7HEFV25ezbQul2u1LHxv15spjKh2MyS3l19P0Gfvod94Cdh%2FfUpbXR4IxLFmj9gQ1V3Ox%2FMEi%2FsN25W0Q8jXG0jjNMPSjflGg%2BHk9tEz0y1IRXLnicaVUwywG611Sgb29PhDPs%2Br8jQgIztO4eFWJiSkg9f8QmY3tRFfMUjsSCSJ0XKDqePC9HaA4ZJ%2F7bA%2F1j%2BNcjwjR%2BJWz2qdctfnJRZW%2F%2BcHOTHWJrLybYwmrA6RcVilv7IQIM%2BCUHht3WeS%2FNLIk85lDztBZNVH05BD43WMnNFila7zJZX8D7fINe1gm6hfTWnUmRxcdQ3CPbnL0NuXsPWs%2Ff2jI8Q1Vmyyat%2Fnq3H204JkU0f2feQ7osmysIBTKoZ2cB6XUHpriFyh9Jll9JSXvMKpNMVvc21zHZU9uHjjtlT6B7aRMaqqNzoYFooHDXdkg6RzsBwJ8MY%3D  
+INFO  2019-01-28 21:08:35,575 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:35,579 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.1085ms 204 
+INFO  2019-01-28 21:08:35,726 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiaWe4JnPtmUWrpPIOdJyhXo65NwLuO4NbLz26ziYv%2Baz9ZDOTiStakvmPW3OfseCCJE7HEFV25ezbQul2u1LHxv15spjKh2MyS3l19P0Gfvod94Cdh%2FfUpbXR4IxLFmj9gQ1V3Ox%2FMEi%2FsN25W0Q8jXG0jjNMPSjflGg%2BHk9tEz0y1IRXLnicaVUwywG611Sgb29PhDPs%2Br8jQgIztO4eFWJiSkg9f8QmY3tRFfMUjsSCSJ0XKDqePC9HaA4ZJ%2F7bA%2F1j%2BNcjwjR%2BJWz2qdctfnJRZW%2F%2BcHOTHWJrLybYwmrA6RcVilv7IQIM%2BCUHht3WeS%2FNLIk85lDztBZNVH05BD43WMnNFila7zJZX8D7fINe1gm6hfTWnUmRxcdQ3CPbnL0NuXsPWs%2Ff2jI8Q1Vmyyat%2Fnq3H204JkU0f2feQ7osmysIBTKoZ2cB6XUHpriFyh9Jll9JSXvMKpNMVvc21zHZU9uHjjtlT6B7aRMaqqNzoYFooHDXdkg6RzsBwJ8MY%3D text/plain;charset=UTF-8 0
+INFO  2019-01-28 21:08:35,729 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-01-28 21:08:35,736 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-28 21:08:35,741 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.1773ms 200 application/json
