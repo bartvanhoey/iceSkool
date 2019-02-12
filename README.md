@@ -4,4 +4,4 @@
 
 **Template-based Communication between Groups and their Members.**
 
-Test Release Pipeline 5
+Test Release Pipeline 6
